@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+select{
+    border: none;
+    color: white;
+    background-color: #212020;
+    padding: 10px;
+}
+
+.box_flex_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_colum_center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/***********************
+        Header
+************************/
+header{
+    background-color: #404eed;
+    max-height: 580px;
+}
+
+.hd_space{
+    min-height: 80px;
+    padding: 10px;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.svg_discord{
+    color: white;
+}
+
+.link_grop a li{
+    padding: 0 1rem;
+    color: white;
+    font-weight: 400;
+}
+
+.link_grop a li:hover{
+    text-decoration: underline;
+}
+
+.hd_btn{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.hd_btn:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-box-shadow: 0 3px 6px 1.5px #212020;
+    -moz-box-shadow: 0 3px 6px 1.5px #212020;
+    box-shadow: 0 3px 6px 1.5px #212020;
+}
+/* text header */
+.hd_box{
+    background-image: url(../assets/bg\ colline.svg);
+    background-color: #404eed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+    background-position: 96% 10%
+}
+
+.text_box{
+    text-align: center;
+    color: white;
+}
+
+.title_box{
+    font-size: 56px;
+    font-weight: 900;
+    margin: 0.2rem;
+    text-transform: uppercase;
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text_box_btn{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    font-size: 15px;
+    border: none;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.dark{
+    color: white;
+    background-color: #23272a;
+}
+
+.pink_container{
+    width: 900px;
+    height: 400px;
+}
+
+.img_1{
+    position: absolute;
+    bottom:0px;
+    left: 0;
+    width: 30vw;
+}
+
+.img_2{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+}
+
+/***********************
+        Main
+************************/
+.main_box{
+    width: 100%;
+    min-height: 600px;
+}
+
+.bi_face1{
+    min-width: 1200px;
+    min-height: 500px;
+    display: flex;
+}
+
+.big_box{
+    min-width: 720px;
+    min-height: 500px;
+}
+
+.small_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 480px;
+    min-height: 500px;
+    max-width: 500px;
+    text-align: start;
+    align-items: center;
+}
+
+.little_title{
+    font-size: 45px;
+    margin-bottom: 2rem;
+}
+
+.normal_text{
+    font-size: 18px;
+}
+
+.grey_box{
+    background-color: #d3d3d3;
+}
+
+.bi_face2{
+    min-width: 1200px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.full_screen{
+    min-width: 100%;
+    min-height: 1000px;
+    height: 1000px;
+}
+
+.mobile_box{
+    min-width: 1200px;
+    max-width: 1200px;
+    min-height: 900px;
+    text-align: center;
+}
+
+.big_title{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+/***********************
+        Footer
+************************/
+
+.black_box{
+    background-color: #23272a;
+    min-width: 100%;
+    min-height: 630px;
+}
+
+.list_card{
+    min-width: 1200px;
+    min-height: 580px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.red_big{
+    min-width: 360px;
+    max-width: 360px;
+    min-height: 580px;
+}
+
+
+.ft_text_title{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 10px;
+    color: #5865f2;
+}
+
+.social{
+    color: white;
+}
+
+.icon{
+    margin: 10px 5px;
+}
+
+.azzurro_big{
+    min-width: 840px;
+    min-height: 580px;
+    display: flex;
+}
+
+.card_small{
+    width: calc(840px / 4);
+    max-width: calc(840px / 4);
+    min-height:580px;
+}
+
+.tag{
+    color: #5865f2;
+}
+
+div.card_small ul li {
+    color: white;
+    margin: 1rem 0;
+}
+
+div.card_small ul li:hover{
+    text-decoration: underline;
+}
+
+/***********************
+        Final-Footer
+************************/
+
+.final_footer{
+    background-color: #23272a;
+    min-width: 1200px;
+    min-height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.foter_box{
+    min-width: 1200px;
+    min-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    border-top: 1px solid #5865f2;
+}
+
+.ft_logo{
+    padding: 0.5rem;
+}
+
+.color_blue{
+    color: white;
+    background-color: #404eed;
+}
